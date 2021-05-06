@@ -1,4 +1,4 @@
-.bg-primary{
+.first-section{
     background-color: $primary_color;
 
     .container.section-padding{
@@ -45,11 +45,6 @@
             width: 25%;
             margin-bottom: 70px;
             padding: 40px;
-        }
-
-        .resize{
-            height: 100px;
-            width: auto;
         }
     }
 }
