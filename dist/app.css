@@ -57,6 +57,7 @@ img {
   padding: 10px;
   border-radius: 5px;
   border: 1px solid #2E4790;
+  background-color: white;
 }
 .nav-menu li button img {
   width: 20px;
@@ -147,6 +148,12 @@ img {
   padding: 40px;
 }
 
+.second-section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .floated-block {
   width: 70%;
   padding: 30px 0;
@@ -184,10 +191,11 @@ img {
 
 .third-section {
   background-color: #FFE7D2;
+  padding: 40px 0;
 }
 
 .small-container {
-  width: 65%;
+  width: 60%;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -199,7 +207,7 @@ img {
   border: 1px solid #2E4790;
   background-color: white;
   color: black;
-  margin: 30px 0;
+  margin: 40px 0;
   padding: 40px;
 }
 
@@ -217,4 +225,22 @@ button {
 button img {
   width: 20px;
   vertical-align: middle;
+}
+
+.founders {
+  display: flex;
+  align-items: center;
+}
+.founders span {
+  padding-top: 20px;
+}
+.founders span .blue-text {
+  color: #2E4790;
+  font-weight: 600;
+}
+
+.dev-photo {
+  width: 50px;
+  margin-top: 20px;
+  margin-right: 20px;
 }

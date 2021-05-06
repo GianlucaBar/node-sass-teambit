@@ -1,9 +1,10 @@
 .third-section{
     background-color: $primary_color;
+    padding: 40px 0;
 }
 
 .small-container{
-    width: 65%;
+    width: 60%;
     margin: auto;
     @include my-display-flex;
     flex-direction: column;
@@ -15,7 +16,7 @@
     border: 1px solid $buttons_color;
     background-color: white;
     color: black;
-    margin: 30px 0;
+    margin: 40px 0;
     padding: 40px
 }
 
@@ -29,4 +30,22 @@ button{
         width: 20px;
         vertical-align: middle;
     }
+}
+
+.founders{
+    @include my-display-flex;
+    align-items: center;
+    span{
+        padding-top: 20px;
+        .blue-text{
+            color: $buttons_color;
+            font-weight: 600;
+        }
+    }
+}
+
+.dev-photo{
+    width: 50px;
+    margin-top: 20px;
+    margin-right: 20px;
 }
