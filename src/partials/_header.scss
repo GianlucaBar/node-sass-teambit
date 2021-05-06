@@ -1,0 +1,53 @@
+.header-top{
+    @include my-display-flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    padding: 20px 0;
+
+    .logo{
+        width: 150px;
+        padding-left: 20px;
+    }
+}
+
+.nav-menu{
+    list-style-type: none;
+
+    li{
+        margin-left: 10px;
+        display: inline-block;
+        a{
+            text-decoration: none;
+            color: black;
+        }
+
+        button{
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid blue;
+            img{
+                width: 20px;
+                vertical-align: middle;
+            }
+
+            a{
+                vertical-align: middle;
+            }
+        }
+    }
+}
+
+.jumbotron{
+    &::after{
+        @include clearfix;
+    }
+
+    .header-title{
+        float: left;
+    }
+
+    .jumbo-img{
+        float: left;
+    }
+}

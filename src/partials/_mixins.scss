@@ -1,0 +1,15 @@
+@mixin my-display-flex {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+
+@mixin button-base {
+    padding: 10px;
+}
+
+@mixin clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
