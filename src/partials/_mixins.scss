@@ -5,7 +5,11 @@
 }
 
 @mixin button-base {
-    padding: 10px;
+    padding: 5px;
+    background-color: $buttons_color;
+    color: white;
+    border-radius: 5px;
+    border: none;
 }
 
 @mixin clearfix {

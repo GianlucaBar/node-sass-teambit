@@ -2,7 +2,7 @@
     @include my-display-flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid $text_color;
     padding: 20px 0;
 
     .logo{
@@ -19,13 +19,14 @@
         display: inline-block;
         a{
             text-decoration: none;
-            color: black;
+            color: $text_color;
         }
 
         button{
             padding: 10px;
             border-radius: 5px;
-            border: 1px solid blue;
+            border: 1px solid $buttons_color;
+
             img{
                 width: 20px;
                 vertical-align: middle;
@@ -33,6 +34,8 @@
 
             a{
                 vertical-align: middle;
+                color: $buttons_color;
+                font-weight: 600;
             }
         }
     }
@@ -43,11 +46,33 @@
         @include clearfix;
     }
 
+    padding: 40px 0;
     .header-title{
         float: left;
+        width: 50%;
+
+        h2{
+            line-height: 40px;
+            font-size: $main-titles-size;
+        }
+
+        p{
+            margin-bottom: 40px;
+            line-height: 30px;
+        }
+        button{
+            @include button-base;
+
+            img{
+                width: 20px;
+                vertical-align: middle;
+            }
+        }
+
     }
 
     .jumbo-img{
         float: left;
+        width: 50%;
     }
 }

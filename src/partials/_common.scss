@@ -6,6 +6,7 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
+    color: $text_color;
 }
 
 .container{
@@ -13,3 +14,18 @@ body{
     margin: auto;
 }
 
+img{
+    width: 100%;
+}
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+.small-title{
+    font-size: 22px;
+}
