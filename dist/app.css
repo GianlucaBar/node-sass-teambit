@@ -6,7 +6,7 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-  color: #58402C;
+  color: black;
 }
 
 .container {
@@ -16,7 +16,7 @@ body {
 
 .btn-standard {
   padding: 5px;
-  background-color: #2E4790;
+  background-color: #7F14D4;
   color: white;
   border-radius: 5px;
   border: none;
@@ -43,7 +43,7 @@ img {
 }
 
 .blue-text {
-  color: #2E4790;
+  color: #7F14D4;
   font-weight: 600;
 }
 
@@ -51,7 +51,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid #58402C;
+  border-bottom: 1px solid black;
   padding: 20px 0;
 }
 .header-top .logo {
@@ -68,12 +68,12 @@ img {
 }
 .nav-menu li a {
   text-decoration: none;
-  color: #58402C;
+  color: black;
 }
 .nav-menu li button {
   padding: 10px;
   border-radius: 5px;
-  border: 1px solid #2E4790;
+  border: 1px solid #7F14D4;
   background-color: white;
 }
 .nav-menu li button img {
@@ -82,7 +82,7 @@ img {
 }
 .nav-menu li button a {
   vertical-align: middle;
-  color: #2E4790;
+  color: #7F14D4;
   font-weight: 600;
 }
 
@@ -112,7 +112,7 @@ img {
 }
 
 .first-section {
-  background-color: #FFE7D2;
+  background-color: #666db3;
 }
 .first-section .container.section-padding {
   padding: 30px;
@@ -190,14 +190,14 @@ img {
 
 .learn-link {
   display: block;
-  color: #2E4790;
+  color: #7F14D4;
   text-decoration: none;
   font-size: 16px;
   font-weight: 600;
 }
 
 .third-section {
-  background-color: #FFE7D2;
+  background-color: #666db3;
   padding: 40px 0;
 }
 
@@ -211,7 +211,7 @@ img {
 
 .letter {
   border-radius: 10px;
-  border: 1px solid #2E4790;
+  border: 1px solid #7F14D4;
   background-color: white;
   color: black;
   margin: 40px 0;
@@ -268,7 +268,7 @@ img {
 }
 .footer-nav-list li a {
   text-decoration: none;
-  color: #58402C;
+  color: black;
   font-weight: 600;
   font-size: 13px;
   line-height: 25px;
