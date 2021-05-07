@@ -61,14 +61,6 @@
             margin-bottom: 40px;
             line-height: 30px;
         }
-        button{
-            @include button-base;
-
-            img{
-                width: 20px;
-                vertical-align: middle;
-            }
-        }
 
     }
 

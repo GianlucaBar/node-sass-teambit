@@ -14,6 +14,17 @@ body{
     margin: auto;
 }
 
+.btn-standard{
+    @include button-base;
+
+    img{
+        width: 20px;
+        vertical-align: middle;
+        padding-right: 10px;
+    }
+
+}
+
 img{
     width: 100%;
 }
@@ -28,4 +39,9 @@ img{
 
 .small-title{
     font-size: 22px;
+}
+
+.blue-text{
+    color: $secondary-color;
+    font-weight: 600;
 }

@@ -1,0 +1,44 @@
+.footer-container{
+    @include my-display-flex;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+
+.mission{
+    @include my-display-flex;
+    max-width: 300px;
+    .logo-small{
+        width: 130px;
+        vertical-align: middle;
+        margin-right: 10px;
+    }
+
+    .mission-text{
+        vertical-align: middle;
+        font-weight: 600; 
+        font-size: 15px;
+    }
+}
+
+.footer-nav-list{
+    list-style-type: none;
+
+    .list-title{
+        margin-bottom: 20px;
+    }
+    li{
+        
+        a{
+            text-decoration: none;
+            color: $text_color;
+            font-weight: 600;
+            font-size: 13px;
+            line-height: 25px;
+        }
+    }
+}
+
+.blog-post-list{
+    max-width: 200px;
+}
+

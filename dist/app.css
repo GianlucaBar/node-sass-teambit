@@ -30,6 +30,11 @@ img {
   font-size: 22px;
 }
 
+.blue-text {
+  color: #2E4790;
+  font-weight: 600;
+}
+
 .header-top {
   display: flex;
   justify-content: space-between;
@@ -211,6 +216,9 @@ img {
   margin: 40px 0;
   padding: 40px;
 }
+.letter p {
+  margin-bottom: 15px;
+}
 
 .btn-container {
   text-align: center;
@@ -235,13 +243,48 @@ button img {
 .founders span {
   padding-top: 20px;
 }
-.founders span .blue-text {
-  color: #2E4790;
-  font-weight: 600;
-}
 
 .dev-photo {
   width: 50px;
   margin-top: 20px;
   margin-right: 20px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0;
+}
+
+.mission {
+  display: flex;
+  max-width: 300px;
+}
+.mission .logo-small {
+  width: 130px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.mission .mission-text {
+  vertical-align: middle;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.footer-nav-list {
+  list-style-type: none;
+}
+.footer-nav-list .list-title {
+  margin-bottom: 20px;
+}
+.footer-nav-list li a {
+  text-decoration: none;
+  color: #58402C;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 25px;
+}
+
+.blog-post-list {
+  max-width: 200px;
 }
